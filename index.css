@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for app screens */
+.container {
+    width: 375px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+/* Buttons */
+.button {
+    display: block;
+    padding: 10px;
+    background-color: #007AFF;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #9B59B6;
+}
+
+/* Input Fields */
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Card Sections */
+.card {
+    background-color: #EAEAEA;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Header */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Navigation and Icons */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #9B59B6;
+    border-radius: 10px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
