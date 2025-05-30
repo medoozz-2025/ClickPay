@@ -1,0 +1,13 @@
+.logo-header {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to the top */
+  position: absolute;
+  top: 20px; /* Adjust top spacing */
+}
+
+.logo-header img {
+  width: 150px; /* Adjust size */
+  height: auto;
+}
